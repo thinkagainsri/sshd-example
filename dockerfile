@@ -6,5 +6,4 @@ RUN mkdir -p /var/run/sshd
 ADD sshd_config /etc/ssh/sshd_config
 USER nobody
 WORKDIR /tmp/
-ENV exp "srinivas"
 EXPOSE 2222
